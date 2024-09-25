@@ -1,0 +1,374 @@
+@media (min-width: 1171px) and (max-width: 1919px) {
+.home-service-area { background: transparent;}
+.home-page-team-area {background: rgba(249, 249, 249,1);}
+}
+/* Large desktop :1270px. */
+@media (min-width: 1170px) and (max-width: 1270px) {
+.header-area .main-menu-area ul li a {padding: 40px 19px;}
+.home-2 .header-area .main-menu-area ul li a {padding: 0 19px;}
+.slider-area .slider-1 p {  padding: 0 15em;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 86%;}
+.home-page-team-area .section-title-area::after {left: 41%;width: 58%;}
+.related-product-area .single-product-store::after {left: 41%;width: 58%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 27px;}
+.get-free-consultation-area .get-free-consultation-button a {padding: 15px 16px;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.home-service-area { background: transparent;}
+
+}
+ 
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+.container {width:970px}
+.header-area .main-menu-area ul li a {padding: 40px 19px !important;}
+.stick.header-area .main-menu-area ul li a{ padding: 40px 19px !important;}
+.home-2 .header-area .main-menu-area ul li a {padding: 0 19px;}
+.slider-area .slider-1 p {  padding: 0 15em;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 86%;}
+.home-page-team-area .section-title-area::after {left: 41%;width: 58%;}
+.related-product-area .single-product-store::after {left: 41%;width: 58%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 27px;}
+.get-free-consultation-area .get-free-consultation-button a {padding: 15px 16px;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.slider-bottom-area { padding: 0 0 10px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul {top: 31%;}
+.home-2 .slider-content {  margin-top: 60px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul{top: 41%;}
+.header-area .main-menu-area ul li ul.mega-menu-area {left: inherit !important;right: 0 !important;}
+.home-service-area { background: transparent;}
+.home-page-team-area{padding-bottom: 0}
+.padding-up {  padding-top: 0px;}
+.about-company-area { padding-bottom:60px;}
+.padding-up{padding: 30px}
+.home-page-team-area {  padding: 40px 0 60px;}
+.about-page-area {  padding: 90px 0 0px;}
+.client-logo-area{padding: 30px 0 80px;}
+.service-page-main-section-area,
+.project-page,
+.main-news-page-section-area{padding: 90px 0}
+.testimonial-area {  padding: 80px 0;}
+.home-page-recent-news-area {  padding: 60px 0 0;}
+.client-logo-area .owl-buttons .owl-prev, .client-logo-area .owl-buttons .owl-next {top: 50px;}
+.header-area .logo-area {margin: 22px 0 0 0 !important;}
+
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.container {width:750px}
+.header-area .main-menu-area ul li a {padding: 40px 7px;}
+.home-2 .header-area .main-menu-area ul li a {padding: 0 7px;}
+.slider-area .slider-1 p {  padding: 0 5em;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 81%;}
+.home-page-team-area .section-title-area::after {left: 52%;width: 46%;}
+.related-product-area .single-product-store::after {left: 53%;width: 45%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 20px;}
+.get-free-consultation-area .get-free-consultation-button a {  text-align: center;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.slider-bottom-area { padding: 0 0 10px;}
+.slider-area .slider-1 h1 {font-size: 50px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul {top: 31%;}
+.home-2 .slider-content {  margin-top: 60px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul{top: 41%;}
+.header-area .main-menu-area ul li ul.mega-menu-area {left: inherit !important;right: 0 !important;}    
+.header-area .logo-area {  margin: 30px 0 0;}  
+.slider-bottom-area .slider-bottom-text p {font-size: 15px;}
+.slider-bottom-area .slider-bottom button {padding: 15px 20px;font-size: 14px;}
+.home-service-area .home-sidebar h3 {left: -101px;top: 45%;font-size: 14px;}
+.home-latest-project .section-title-area h2 {  font-size: 18px;}
+.footer-top-area .single-footer h3 {font-size: 19px;}
+.service-page-main-section-area .single-service-area h3 a {font-size: 14px;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body h4 a {font-size: 19px;}
+.shop-page-area .sidebar-area .single-item-area h4.media-heading a, .shop-page-area .sidebar-area .single-item-area ul li i {font-size: 13px;}
+.home-service-area { background: transparent;}
+.header-area .search-box .search-button { position: absolute; right: 0;  top: 40px !important;}
+.padding-up{padding: 30px}
+.about-company-area, .main-single-team-area{  padding: 90px 0 0;}
+.home-service-area,
+.home-latest-project{ padding: 90px 0 60px;}
+.home-page-team-area {  padding: 80px 0 0px;}
+.client-logo-area {  padding: 60px 0; }
+.footer-top-area{padding: 80px 0;}
+.client-logo-area .owl-buttons .owl-prev, .client-logo-area .owl-buttons .owl-next {top: 75px;}
+.about-company-area { padding-bottom:0;}
+.service-page-main-section-area,
+.project-page,
+.main-news-page-section-area, .cart-page-area{padding: 90px 0}
+.header-area .search-box .search-text.active {left: -150px;}
+.testimonial-area, .home-page-video-area {  padding: 90px 0;}
+.stick.header-area .main-menu-area ul li a{ padding: 28px 7px !important;}
+.header-area .logo-area {margin: 28px 0 0 0 !important;}
+.shop-page-area {    padding: 0px 0 40px;}
+.home-page-team1 {    padding-bottom: 50px !important;    overflow: hidden;}
+.single-product .shop-page-area {    padding: 60px 0 0px;}
+.single-product .shop-page-area .sidebar-area{margin-bottom: 0 !important;}
+.about-page-area{padding-bottom: 0 !important;}
+}
+
+@media (max-width: 768px) {
+    .get-free-consultation-area .get-free-consultation-text p{ margin:0; }
+    .small .get-free-consultation-text > p{ line-height: 22px; }
+    
+    
+}
+ 
+/* small mobile :320px. */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+.header-area, .slider-content {display: none;}
+.mobile-menu-area{display: block;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 75%;}
+.home-page-team-area .section-title-area::after {  left: 71%;  width: 25%;}
+.related-product-area .single-product-store::after {left: 53%;width: 45%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 16px;}
+.get-free-consultation-area .get-free-consultation-button a {  display: inline-block;  font-size: 14px;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.slider-bottom-area { padding: 0 0 10px;}
+.slider-area .slider-1 h1 {font-size: 37px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul {top: 31%;}
+.home-2 .slider-content {  margin-top: 60px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul{top: 35%;}
+.header-area .main-menu-area ul li ul.mega-menu-area {left: inherit !important;right: 0 !important;}    
+.header-area .logo-area {  margin: 30px 0 0;}  
+.slider-bottom-area .slider-bottom-text p {font-size: 15px;margin: 0}
+.slider-bottom-area .slider-bottom button {  bottom: 0;  display: block;  font-size: 14px;  left: 0;  margin: 21px auto;  right: 0;
+  text-align: center;  top: 0;}
+.home-service-area .home-sidebar h3 {left: -101px;top: 45%;font-size: 14px;}
+.home-latest-project .section-title-area h2 {  font-size: 17px;}
+.footer-top-area .single-footer h3 {font-size: 19px;}
+.service-page-main-section-area .single-service-area h3 a {font-size: 14px;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body h4 a {font-size: 19px;}
+.shop-page-area .sidebar-area .single-item-area h4.media-heading a, .shop-page-area .sidebar-area .single-item-area ul li i {font-size: 13px;}
+.slider-area .slider-1 h4 {letter-spacing: 0px;font-size: 14px;}
+.slider-bottom-area .slider-bottom-text { margin: 20px 0 0;}
+.tab-list-area {  margin-bottom: 80px;}
+.home-page-team-area .owl-buttons { left: 240px;}
+.home-page-video-area .video-content h2 {font-size: 34px;}
+.video-content {  margin-bottom: 50px;}
+.get-free-consultation-area .get-free-consultation-button {  display: block;  text-align: center;}
+.single-footer {  margin-bottom: 20px;}
+.single-news-area .media-left, .media > .pull-left{float: none !important;}
+.single-news-area .media-left, .media > .pull-left img{width: 100%;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body {  padding: 20px 0;}
+.pagination-area {  padding: 30px;}
+.padding-right {  margin: 0;  padding: 0;}
+.single-product img {  width: 100%;}
+.shop-page-area .show-product-area .single-product-store .single-product .shop-overley .social-media-area {top: 45%;}
+.single-product img {  width: 100%;}
+.leave-comments-area fieldset input {  margin-right: 0px !important;}
+.padding-left {  padding-left: 0;padding-right: 0px !important;margin-right: 0px !important;}
+.single-team-featured-image{margin-bottom: 30px;}
+.main-single-team-area .main-single-team-content .single-team-social-media {  margin: 65px auto;  text-align: center;}
+.single-team-featured-image img {  width: 100%;}
+.right-side select {  width: 100px;}
+.button-area button.button {font-size: 11px;}
+.table-button-left { width: 30%;}
+.right-checkout ul.form-list .input-box .input-text.required-entry {  width: 100%;}
+.home-service-area { background: transparent;}
+.new-featured-image img {  width: 100%;}
+
+.home-service-area, .home-page-team-area { background: transparent;padding:60px 0;}
+.home-latest-project, .testimonial-area, .home-page-video-area, .client-logo-area, .footer-top-area, .page-header-area, .project-page, .service-page-main-section-area, .main-news-page-section-area{padding:10px 0;}
+.about-company-area, .about-page-area, .home-page-team-area, .main-single-team-area, .shop-page-area, .single-product .shop-page-area{padding: 60px 0 0}
+.home-page-recent-news-area .home-page-team-area{padding: 60px 0 0}
+.nav-tabs>li {  float: none !important; margin-bottom: 0 !important; display: block !important;}
+.cart-page-area, .total-wishlist-area, .checkout-page-area, .main-contact-page-area{padding: 60px 0;}
+.project-detail { padding-top: 30px;}
+}
+ 
+/* Large Mobile :480px. */
+ 
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+.header-area, .slider-content {display: none;}
+.mobile-menu-area{display: block;}
+.slider-area .slider-1 p {  padding:0em;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image,
+.home-page-team-area .section-title-area::after {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 75%;}
+.home-page-team-area .section-title-area::after {  left: 71%;  width: 25%;}
+.related-product-area .single-product-store::after {left: 53%;width: 45%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 16px;}
+.get-free-consultation-area .get-free-consultation-button a {  display: inline-block;  font-size: 14px;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.slider-bottom-area { padding: 0 0 10px;}
+.slider-area .slider-1 h1 {font-size: 37px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul {top: 31%;}
+.home-2 .slider-content {  margin-top: 60px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul{top: 35%;}
+.header-area .main-menu-area ul li ul.mega-menu-area {left: inherit !important;right: 0 !important;}    
+.header-area .logo-area {  margin: 30px 0 0;}  
+.slider-bottom-area .slider-bottom-text p {font-size: 15px;margin: 0}
+.slider-bottom-area .slider-bottom button {  bottom: 0;  display: block;  font-size: 14px;  left: 0;  margin: 21px auto;  right: 0;
+  text-align: center;  top: 0;}
+.home-service-area .home-sidebar h3 {left: -101px;top: 45%;font-size: 14px;}
+.home-latest-project .section-title-area h2 {  font-size: 17px;}
+.footer-top-area .single-footer h3 {font-size: 19px;}
+.service-page-main-section-area .single-service-area h3 a {font-size: 14px;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body h4 a {font-size: 19px;}
+.shop-page-area .sidebar-area .single-item-area h4.media-heading a, .shop-page-area .sidebar-area .single-item-area ul li i {font-size: 13px;}
+.slider-area .slider-1 h4 {letter-spacing: 0px;font-size: 14px;}
+.slider-bottom-area .slider-bottom-text { margin: 20px 0 0;}
+.tab-list-area {  margin-bottom: 80px;}
+.home-page-team-area .owl-buttons { left: 240px;}
+.home-page-video-area .video-content h2 {font-size: 23px;}
+.video-content {  margin-bottom: 50px;text-align: center;}
+.get-free-consultation-area .get-free-consultation-button {  display: block;  text-align: center;}
+.single-footer {  margin-bottom: 20px;}
+.single-news-area .media-left, .media > .pull-left{float: none !important;}
+.single-news-area .media-left, .media > .pull-left img{width: 100%;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body {  padding: 10px 0 0;}
+.pagination-area {  padding: 20px 0}
+.pagination-area ul li a {height: 35px;line-height: 35px;width: 35px;}
+.padding-right {  margin: 0;  padding: 0;}
+.single-product img {  width: 100%;}
+.shop-page-area .show-product-area .single-product-store .single-product .shop-overley .social-media-area {top: 45%;}
+.single-product img {  width: 100%;}
+.leave-comments-area fieldset input {  margin-right: 0px !important;}
+.padding-left {  padding-left: 0;padding-right: 0px !important;margin-right: 0px !important;}
+.single-team-featured-image{margin-bottom: 30px;}
+.main-single-team-area .main-single-team-content .single-team-social-media {  margin: 65px auto;  text-align: center;}
+.single-team-featured-image img {  width: 100%;}
+.right-side select {  width: 100px;}
+.button-area button.button {font-size: 11px;}
+.table-button-left {float: none;margin-right: 0 !important;text-align: center;width: 100%;}
+.right-checkout ul.form-list .input-box .input-text.required-entry {  width: 100%;}
+.contact-text > h3 {  font-size: 14px;}
+.home-service-area .single-service-area {  float: none;  margin-right: 0;  width: 100%;  text-align: center;}
+.testimonial-area .testimonial .single-testimonial p.content {margin: 40px 0px 20px;}
+.client-logo-area .owl-buttons .owl-prev{   left: -27px;}
+.client-logo-area .owl-buttons .owl-next{   right: -27px;}
+.project-page .tab-content-area .latest-project-page .single-project {  float: none;  overflow: hidden;  position: relative;  text-align: center;
+  width: 100%;}
+.table-button-right {  float: none;  margin-left: 0;  width: 100%;}
+.table-button-right ul li {  display: block;  margin: 5px auto;  padding: 0;  text-align: center;}
+.home-service-area { background: transparent;}
+
+.home-service-area, .home-page-team-area { background: transparent;padding:60px 0;}
+.home-latest-project, .testimonial-area, .home-page-video-area, .client-logo-area, .footer-top-area, .page-header-area, .project-page, .service-page-main-section-area, .main-news-page-section-area{padding:60px 0;}
+.about-company-area, .about-page-area, .home-page-team-area, .main-single-team-area, .shop-page-area, .single-product .shop-page-area{padding: 60px 0 0}
+.home-page-recent-news-area .home-page-team-area{padding: 60px 0 0}
+.nav-tabs>li {  float: none !important; margin-bottom: 0 !important; display: block !important;}
+.cart-page-area, .total-wishlist-area, .checkout-page-area, .main-contact-page-area{padding: 60px 0;}
+.page-header-area{padding:10px 0;}
+.page-header-area h2{font-size: 28px;margin: 0;}
+.project-detail { padding-top: 25px;}
+}
+
+ 
+/* Large Mobile :480px. */
+ 
+@media (max-width: 320px) {
+.container {width:300px}
+.header-area, .slider-content {display: none;}
+.mobile-menu-area{display: block;}
+.slider-area .slider-1 p {  padding:0em;}
+.home-service-area .bg-image,
+.home-page-team-area .team-picure,
+.home-page-recent-news-area .bg-image,
+.home-page-team-area .section-title-area::after {display: none;}
+.home-latest-project .tab-content-area .latest-project::after {width: 75%;}
+.home-page-team-area .section-title-area::after {  left: 71%;  width: 25%;}
+.related-product-area .single-product-store::after {left: 53%;width: 45%;}
+.get-free-consultation-area .get-free-consultation-text p {font-size: 16px;}
+.get-free-consultation-area .get-free-consultation-button a {  display: inline-block;  font-size: 14px;}
+.footer-top-area .single-footer .footer-social-media-area ul li {margin: 1px;}
+.footer-top-area .footer-four ul li i {margin: 3px;}
+.home-latest-project .section-title-area h2 {font-size: 23px;}
+.slider-bottom-area { padding: 0 0 10px;}
+.slider-area .slider-1 h1 {font-size: 37px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul {top: 31%;}
+.home-2 .slider-content {  margin-top: 60px;}
+.home-page-team-area .total-single-team-area .single-team-area .overley ul{top: 35%;}
+.header-area .main-menu-area ul li ul.mega-menu-area {left: inherit !important;right: 0 !important;}    
+.header-area .logo-area {  margin: 30px 0 0;}  
+.slider-bottom-area .slider-bottom-text p {font-size: 15px;margin: 0}
+.slider-bottom-area .slider-bottom button {  bottom: 0;  display: block;  font-size: 14px;  left: 0;  margin: 21px auto;  right: 0;
+  text-align: center;  top: 0;}
+.home-service-area .home-sidebar h3 {left: -101px;top: 45%;font-size: 14px;}
+.home-latest-project .section-title-area h2 {  font-size: 17px;}
+.footer-top-area .single-footer h3 {font-size: 19px;}
+.service-page-main-section-area .single-service-area h3 a {font-size: 14px;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body h4 a {font-size: 19px;}
+.shop-page-area .sidebar-area .single-item-area h4.media-heading a, .shop-page-area .sidebar-area .single-item-area ul li i {font-size: 13px;}
+.slider-area .slider-1 h4 {letter-spacing: 0px;font-size: 14px;}
+.slider-bottom-area .slider-bottom-text { margin: 20px 0 0;}
+.tab-list-area {  margin-bottom: 80px;}
+.home-page-team-area .owl-buttons { left: 240px;}
+.home-page-video-area .video-content h2 {font-size: 23px;}
+.video-content {  margin-bottom: 50px;text-align: center;}
+.get-free-consultation-area .get-free-consultation-button {  display: block;  text-align: center;}
+.single-footer {  margin-bottom: 20px;}
+.single-news-area .media-left, .media > .pull-left{float: none !important;}
+.single-news-area .media-left, .media > .pull-left img{width: 100%;}
+.main-news-page-section-area .news-page-content-section-area .single-news-area .news-body {  padding: 20px 0 0;}
+.pagination-area {  padding: 20px 0}
+.pagination-area ul li a {height: 35px;line-height: 35px;width: 35px;}
+.padding-right {  margin: 0;  padding: 0;}
+.single-product img {  width: 100%;}
+.shop-page-area .show-product-area .single-product-store .single-product .shop-overley .social-media-area {top: 45%;}
+.single-product img {  width: 100%;}
+.leave-comments-area fieldset input {  margin-right: 0px !important;}
+.padding-left {  padding-left: 0;padding-right: 0px !important;margin-right: 0px !important;}
+.single-team-featured-image{margin-bottom: 30px;}
+.main-single-team-area .main-single-team-content .single-team-social-media {  margin: 65px auto;  text-align: center;}
+.single-team-featured-image img {  width: 100%;}
+.right-side select {  width: 100px;}
+.button-area button.button {font-size: 11px;}
+.table-button-left {float: none;margin-right: 0 !important;text-align: center;width: 100%;}
+.right-checkout ul.form-list .input-box .input-text.required-entry {  width: 100%;}
+.contact-text > h3 {  font-size: 14px;}
+.home-service-area .single-service-area {  float: none;  margin-right: 0;  width: 100%;  text-align: center;}
+.testimonial-area .testimonial .single-testimonial p.content {margin: 40px 0px 20px;}
+.client-logo-area .owl-buttons .owl-prev{   left: -27px;}
+.client-logo-area .owl-buttons .owl-next{   right: -27px;}
+.project-page .tab-content-area .latest-project-page .single-project {  float: none;  overflow: hidden;  position: relative;  text-align: center;
+  width: 100%;}
+.table-button-right {  float: none;  margin-left: 0;  width: 100%;}
+.table-button-right ul li {  display: block;  margin: 5px auto;  padding: 0;  text-align: center;}
+.nivo-directionNav a {top: 20%;}
+
+.home-service-area, .home-page-team-area { background: transparent;padding:60px 0;}
+.home-latest-project, .testimonial-area, .home-page-video-area, .client-logo-area, .footer-top-area, .page-header-area, .project-page, .service-page-main-section-area, .main-news-page-section-area{padding:60px 0;}
+.about-company-area, .about-page-area, .home-page-team-area, .main-single-team-area, .shop-page-area, .single-product .shop-page-area{padding: 60px 0 0}
+.home-page-recent-news-area .home-page-team-area{padding: 60px 0 0}
+.nav-tabs>li {  float: none !important; margin-bottom: 0 !important; display: block !important;}
+.cart-page-area, .total-wishlist-area, .checkout-page-area, .main-contact-page-area{padding: 60px 0;}
+.page-header-area{padding:35px 0;}
+.page-header-area h2{font-size: 28px;margin: 0;}
+.project-detail { padding-top: 25px;}
+}
+
+@media (max-width: 481px) {
+    .home-page-video-area{display:none;}
+    .about-company-area .our-capability-area h3{font-size: 16px;}
+    .news-head{ font-size: 16px; }
+    .home-page-team-area .owl-buttons{right: 0; left: initial; text-align: right;}
+    .about-company-area h4.panel-title > a{font-size: 13px;}
+    .page-header-area h1{ font-size: 24px; }
+}
+
+
+ 

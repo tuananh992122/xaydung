@@ -1,0 +1,339 @@
+* {
+    margin: 0
+}
+
+html,
+body {
+    height: 100%
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto!important;
+    height: 100%;
+    margin: 0 auto -210px
+}
+
+#footer,
+.push {
+    height: 210px
+}
+
+nav#header ul.navbar-right,
+nav#header div.navbar-button a.btn {
+    font-size: 13px
+}
+
+nav#header div.navbar-button {
+    padding-top: 8px;
+    padding-left: 12px
+}
+
+nav#header .shadow {
+    background: url(../images/divider-shadow-down.png) no-repeat center top;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    width: 100%;
+    height: 20px;
+    z-index: 9999
+}
+
+section.banner {
+    z-index: -10;
+    width: 100%;
+    padding-bottom: 60px;
+    border-bottom: 1px #CCC solid;
+    line-height: 1.1
+}
+
+section.banner .header {
+    padding-top: 70px
+}
+
+section.banner .header h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 12px
+}
+
+section.banner .tag p {
+    font-size: 18px
+}
+
+section.banner .features h5 {
+    text-decoration: underline;
+    margin-top: 0
+}
+
+section.banner .features p {
+    font-weight: 400
+}
+
+section.banner .features p a {
+    color: #FFF;
+    text-decoration: underline
+}
+
+section.banner .features p a.btn {
+    text-decoration: none
+}
+
+section .shadow-down {
+    background: url(../images/divider-shadow-down.png) no-repeat center top;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    width: 100%;
+    height: 20px;
+    z-index: 9999
+}
+
+section .shadow-up {
+    background: url(../images/divider-shadow-up.png) no-repeat center top;
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    width: 100%;
+    height: 20px;
+    z-index: 9999
+}
+
+section.learn-more {
+    padding-top: 18px;
+    padding-bottom: 32px;
+    background-color: #e7e7e7
+}
+
+section.learn-more .header p {
+    font-weight: 400
+}
+
+section.learn-more .well p {
+    margin-bottom: 12px
+}
+
+section.learn-more .well span.glyphicon {
+    font-size: 30px;
+    top: 8px;
+    margin-right: 10px;
+    color: #428bca
+}
+
+section#whats-included {
+    background-color: #FFF;
+    margin-bottom: 0
+}
+
+section#whats-included .panel h3,
+section#whats-included .panel h4 {
+    color: #000
+}
+
+section#whats-included .panel h4 {
+    margin-bottom: 6px;
+    margin-top: 14px;
+    text-decoration: underline
+}
+
+section#whats-included .panel h5,
+section#whats-included .panel p {
+    color: gray
+}
+
+section#whats-included .panel .glyphicon {
+    margin-right: 8px;
+    top: 2px
+}
+
+section#professional-services {
+    padding-top: 18px;
+    padding-bottom: 32px
+}
+
+.container .row.cta {
+    padding-top: 48px;
+    padding-bottom: 32px
+}
+
+.container .row.cta .well {
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #fff
+}
+
+.container .row.cta .well span.glyphicon {
+    color: #FFF
+}
+
+.container .row.cta .well h2 {
+    margin-bottom: 20px
+}
+
+.container .row.cta .well p {
+    margin-top: 10px
+}
+
+.container .row.cta .well p .btn {
+    font-size: 22px;
+    padding: 0 16px 12px
+}
+
+.container .row.cta .well p .btn .glyphicon {
+    font-size: 32px;
+    top: 8px;
+    margin-right: 16px
+}
+
+section#home.banner {
+    background: #242628 url(../images/banner_bg.jpg) center center;
+    background-size: cover;
+    color: #fff
+}
+
+section#home.banner .features #learn-more {
+    margin-top: 28px
+}
+
+section#learn-more.home .well h4 {
+    margin-top: 0
+}
+
+section#learn-more.about .panel h4 {
+    border-bottom: 1px dashed #999;
+    padding-bottom: 6px
+}
+
+section#learn-more .panel .popovers {
+    border-bottom: 1px dashed #999
+}
+
+section#learn-more #plans-pricing div.plan {
+    padding: 0
+}
+
+section#learn-more #plans-pricing .monthly .panel-heading {
+    padding-top: 2px;
+    padding-bottom: 0
+}
+
+section#learn-more #plans-pricing .monthly .panel-footer {
+    background-color: #428bca;
+    border-color: #428bca
+}
+
+section#learn-more #plans-pricing .panel.quarterly,
+section#learn-more #plans-pricing .panel.biweekly,
+section#learn-more #plans-pricing .panel.weekly {
+    margin-top: 14px
+}
+
+section#learn-more #plans-pricing .panel .panel-body h3 {
+    margin: 0
+}
+
+section#learn-more #plans-pricing .panel .list-group.pricing .regular {
+    padding: 8px 0;
+    margin: 0;
+    text-decoration: line-through;
+    font-weight: 300
+}
+
+section#learn-more #plans-pricing .panel .list-group.pricing .price {
+    padding: 6px 0;
+    margin: 0;
+    font-weight: 700
+}
+
+section#learn-more #plans-pricing .panel .list-group.pricing .popovers {
+    border-bottom: 1px dashed #999
+}
+
+section#contact-us {
+    padding-top: 18px;
+    padding-bottom: 32px
+}
+
+section#contact-us .header p {
+    font-weight: 400
+}
+
+section#signup {
+    padding-top: 18px;
+    padding-bottom: 32px
+}
+
+section#signup .header p {
+    font-weight: 400
+}
+
+section#signup .badge {
+    margin-top: 1px;
+    margin-right: 12px
+}
+
+section#signup form .panel {
+    border-top: 0
+}
+
+section#signup form #payment-errors {
+    display: none
+}
+
+section#thank-you {
+    margin-top: 18px
+}
+
+section#login,
+section#reminder,
+section#login {
+    margin-top: 18px
+}
+
+section#privacy-policy,
+section#terms-of-service {
+    margin-top: 18px
+}
+
+section#errors .container {
+    background: transparent url(../images/404/bg.png) no-repeat center center;
+    height: 600px;
+    color: #fff
+}
+
+section#errors .header {
+    margin-top: 136px
+}
+
+section#errors .header h1 {
+    font-weight: 600
+}
+
+section#footer {
+    background-color: #f8f8f8;
+    z-index: -10;
+    width: 100%
+}
+
+section#footer .container {
+    margin-top: 28px
+}
+
+section#footer .shadow {
+    background: url(../images/divider-shadow-down.png) no-repeat center top;
+    border-top: 1px #EEE solid;
+    clear: both;
+    zoom: 1;
+    filter: alpha(opacity=80);
+    opacity: .8;
+    width: 100%;
+    height: 20px;
+    z-index: 9999
+}
+
+section#footer #copyright {
+    margin-top: 24px
+}
