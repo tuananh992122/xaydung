@@ -1,85 +1,82 @@
-<!-- Footer Area Section Start Here -->
-		<footer>
-			<div class="footer-top-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="single-footer footer-one">
-								<h3>Menu</h3>
-								<div class="menu-footer">
-									<nav>
-										<ul>
-											<li><a href="<?=PREFIX?>">Trang chủ</a></li>
-											<li><a href="<?=PREFIX?>gioi-thieu.html">Giới thiệu</a></li>
-											<li><a href="<?=PREFIX?>tu-van-thiet-ke.html">Tư vấn thiết kế</a></li>
-											<li><a href="<?=PREFIX?>tin-tuc.html">Tin tức</a></li>
-											<li><a href="<?=PREFIX?>lien-he.html">Liên hệ</a></li>
-										</ul>
-									</nav>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="single-footer footer-two">
-								<h3>Dịch vụ</h3>
-								<nav>
-									<ul>
-										<?if(isset($cat_sv)):
-                                        foreach($cat_sv as $c):?>
-										<li>			
-											<a href="<?=PREFIX.'dich-vu/'.$c->slug?>"><?=$c->name?></a>		
-										</li>	
-										<?endforeach;
-                                        endif;
-                                        ?>
-									</ul>
-								</nav>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="single-footer footer-three">
-								<div class="fb-page" data-href="<?=isset($info[1])?$info[1]->content:'https://www.facebook.com/xaydungtinduc/'?>" data-tabs="timeline" data-width="500" data-height="190" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
-							</div>
-						</div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-							<div class="single-footer footer-four">
-								<h3>Liên hệ</h3>
-								<nav>
-									<ul>
-										<li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <?=isset($info[3])?$info[3]->content:''?></li>
-										<li><i class="fa fa-phone" aria-hidden="true"></i> <?=isset($info[0])?$info[0]->content:''?></li>
-										<li><i class="fa fa-envelope-o" aria-hidden="true"></i> <?=isset($info[2])?$info[2]->content:''?></li>
-										<!--<li><i class="fa fa-fax" aria-hidden="true"></i> Fax: (123) 118 9999</li>-->
-									</ul>
-								</nav>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer-bottom-area">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-							<div class="footer-bottom">
-								<p> &copy; Copyright  Xaydungtinduc.com 2016. All Right Reserved.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-            <div class="hidden" id="prefix"><?=PREFIX?></div>
-            <a class="call_icon" href="tel:<?=isset($info[0])?$info[0]->content:''?>">
-                <img src="<?=PREFIX?>images/call.gif" alt="Call Now <?=TITILE?>" width="70"/>
-            </a>
-            <a class="call_icon" href="https://zalo.me/<?=isset($info[0])?str_replace(' ','',$info[0]->content):'0933946869'?>" style="left: 100px;">
-                <img src="<?=PREFIX?>images/zalo.png" alt="Zalo for me" width="70">
-            </a>
-		</footer>
-		<!-- Footer Area Section End Here -->
-       </div>       
-		<!-- JS -->
-		<div id="fb-root"></div>
+<footer>
+    <div class="footer-top-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-footer footer-one">
+                        <h3>Menu</h3>
+                        <div class="menu-footer">
+                            <nav>
+                                <ul>
+                                    <li><a href="<?=PREFIX?>">Trang chủ</a></li>
+                                    <li><a href="<?=PREFIX?>gioi-thieu.html">Giới thiệu</a></li>
+                                    <li><a href="<?=PREFIX?>tu-van-thiet-ke.html">Tư vấn thiết kế</a></li>
+                                    <li><a href="<?=PREFIX?>tin-tuc.html">Tin tức</a></li>
+                                    <li><a href="<?=PREFIX?>lien-he.html">Liên hệ</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-footer footer-two">
+                        <h3>Dịch vụ</h3>
+                        <nav>
+                            <ul>
+                                <?if(isset($cat_sv)):
+                                foreach($cat_sv as $c):?>
+                                <li>			
+                                    <a href="<?=PREFIX.'dich-vu/'.$c->slug?>"><?=$c->name?></a>		
+                                </li>	
+                                <?endforeach;
+                                endif;
+                                ?>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-footer footer-three">
+                        <div class="fb-page" data-href="<?=isset($info[1])?$info[1]->content:'https://www.facebook.com/xaydungtinduc/'?>" data-tabs="timeline" data-width="500" data-height="190" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div class="single-footer footer-four">
+                        <h3>Liên hệ</h3>
+                        <nav>
+                            <ul>
+                                <li><i class="fa fa-paper-plane-o" aria-hidden="true"></i> <?=isset($info[3])?$info[3]->content:''?></li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i> <?=isset($info[0])?$info[0]->content:''?></li>
+                                <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <?=isset($info[2])?$info[2]->content:''?></li>
+                                <!--<li><i class="fa fa-fax" aria-hidden="true"></i> Fax: (123) 118 9999</li>-->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-bottom">
+                        <p> &copy; Copyright  Xaydungtinduc.com 2016. All Right Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hidden" id="prefix"><?=PREFIX?></div>
+    <a class="call_icon" href="tel:<?=isset($info[0])?$info[0]->content:''?>">
+        <img src="<?=PREFIX?>images/call.gif" alt="Call Now <?=TITILE?>" width="70"/>
+    </a>
+    <a class="call_icon" href="https://zalo.me/<?=isset($info[0])?str_replace(' ','',$info[0]->content):'0933946869'?>" style="left: 100px;">
+        <img src="<?=PREFIX?>images/zalo.png" alt="Zalo for me" width="70">
+    </a>
+</footer>
+</div>
+<div id="fb-root"></div>
         <script>(function(d, s, id) {
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) return;
@@ -137,5 +134,9 @@
 
   gtag('config', 'UA-123342250-1');
 </script>
-    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="<?=PREFIX?>includes/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>

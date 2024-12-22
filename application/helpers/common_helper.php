@@ -244,7 +244,7 @@ function cut_string($value, $length)
 {
     if($value!=''){
     if(is_array($value)) list($string, $match_to) = $value;
-    else { $string = $value; $match_to = $value{0}; }
+    else { $string = $value; $match_to = $value[0]; } // đổi lại khi làm xong $value{0};
     $match_start = stristr($string, $match_to);
     $match_compute = strlen($string) - strlen($match_start);
     if (strlen($string) > $length)

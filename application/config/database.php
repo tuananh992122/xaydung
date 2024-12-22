@@ -76,10 +76,10 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'xaydu633_root',
-	'password' => '?,!;il%!+[+W',
+	'username' => 'root', // đổi lại khi làm xong "xaydu633_root"
+	'password' => '',  // đổi lại khi làm xong "?,!;il%!+[+W"
 	'database' => 'xaydu633_db1',
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli', // đổi lại khi làm xong "xaydu633_db1"
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
